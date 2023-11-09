@@ -1,0 +1,28 @@
+body{background-color:rgb(245, 227, 227);
+}
+
+
+    
+    h1{font-family:fantasy;
+        font-size: xxx-large; 
+        font-style:italic; font-weight: 50; font-stretch: extra-expanded;
+        text-underline-position: below:black;
+        color: darkcyan; 
+}
+    h2{color:black; font-size: x-large;}
+
+    nav > a {
+        text-decoration: none;text-align:center;
+        border: .02px solid slategray;
+        flex: 1;
+        color: black;
+        font-size:large;
+        padding: .8em;
+        
+    }
+
+    nav > a: first-child{
+        border-radius:0.5em 0 0 0.5em;
+    }
+
+    nav
