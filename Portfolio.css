@@ -3,26 +3,35 @@ body{background-color:rgb(245, 227, 227);
 
 
     
-    h1{font-family:fantasy;
+    h1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: xxx-large; 
-        font-style:italic; font-weight: 50; font-stretch: extra-expanded;
+        font-style:italic; font-weight: 50;
         text-underline-position: below:black;
-        color: darkcyan; 
+        color:pink; 
 }
-    h2{color:black; font-size: x-large;}
+    h2{color:antiquewhite; font-size: xx-large;}
 
     nav > a {
         text-decoration: none;text-align:center;
-        border: .02px solid slategray;
+        border: 20px solid rgb(146, 158, 168);
         flex: 1;
         color: black;
         font-size:large;
         padding: .8em;
-        
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     nav > a: first-child{
         border-radius:0.5em 0 0 0.5em;
     }
+ 
+    nav > a:hover {
+        background-color: antiquewhite;
+        transition: all 1s;
+    }
+    div { background-color: rgb(146, 158, 168);
 
-    nav
+
+    }
+
+   
