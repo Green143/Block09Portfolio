@@ -10,7 +10,8 @@ body{background-color:rgb(245, 227, 227);
         text-underline-position: below;
         color:pink; 
 }
-    h2{color:antiquewhite; font-size: xx-large;}
+    h2{color:antiquewhite; font-size: xx-large;
+        font-style: italic;}
 
     nav > a {
         text-decoration: none;text-align:left;
@@ -40,5 +41,16 @@ p { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:pink;
     font-style: italic;
     text-align:center;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1p black;
+
+}
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite; font-size: large
 }
    
