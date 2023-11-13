@@ -1,7 +1,6 @@
 body{background-color:rgb(245, 227, 227);
 }
 
-
     
     h1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: xxx-large; 
@@ -33,5 +32,10 @@ body{background-color:rgb(245, 227, 227);
 
 
     }
-
+p { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    color:slategrey;
+    font-style: italic;
+    text-align:center;
+}
    
